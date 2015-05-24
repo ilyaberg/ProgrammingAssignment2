@@ -48,11 +48,11 @@ cacheSolve <- function(x, ...) {
 
 
 #z <- makeCacheMatrix(m)
-#z$get()
+#z$get() #returns matrix m that was an argument in the above step
 
 #z$getinv() #returns NULL as inverse matrix has not been set yet
 
-#z$setinv(solve(m)) #here the matrix is set 
+#z$setinv(solve(m)) #here the inverse matrix is set 
 
 #z$getinv() #retuns inverse matix
 
